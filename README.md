@@ -1,1 +1,2 @@
-# dhyey6602.github.io
+Dhyey Gami
+Web Developer | Novice Programmer
