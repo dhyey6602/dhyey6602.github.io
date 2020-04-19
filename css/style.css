@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Capriola&display=swap');
+
+/* font-family: 'Acme', sans-serif;
+font-family: 'Capriola', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Capriola', sans-serif;
+}
+
+.blue_text {
+    color: rgb(3, 109, 214);
+    margin: 2rem 0 0.5rem 0;
+}
+
+header {
+    position: relative;
+    z-index: 2;
+}
+
+.header_connect {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    border: dodgerblue 2px solid;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    color: black;
+}
+
+.header_connect:hover {
+    cursor: pointer;
+    background-color: dodgerblue;
+    color: white;
+    transition: all .3s;
+}
+
+.header_connect a {
+    text-decoration: none;
+}
+
+.header_logo {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    height: 3rem;
+}
+
+
+.main_banner {
+    height: 50rem;
+    position: relative;
+    text-align: center;
+}
+
+.main_banner_head {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main_banner_heading {
+    font-size: 3rem;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.main_banner img {
+    height: 20rem;
+}
+
+
+.main_intro {
+    margin: 1rem;
+    color: white;
+    padding: 5rem 20rem;
+    border-radius: 0.5rem;
+    line-height: 2rem;
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right bottom, rgba(20, 97, 240, 0.85), rgba(0, 128, 255, 0.85), rgba(8, 97, 240, 0.85));
+}
+
+.main_intro_heading {
+    font-size: 2rem;
+    margin: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.main_skill {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+}
+
+.card {
+    margin: 1rem;
+    border: #DDD 2px solid;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    text-align: center;
+    color: #444;
+}
+
+.card img {
+    height: 5rem;
+    margin: 1rem;
+    width: 25%;
+}
+
+.card:hover {
+    background-color: #EEE;
+    transition: all 0.5s;
+    color: black;
+    border: #CCC 2px solid;
+}
+
+.card_heading {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 1rem;
+    color: black;
+}
+
+
+.main_experience {
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.main_experience img {
+    height: 30rem;
+    align-self: center;
+}
+
+.main_experience_content {
+    padding: 2rem;
+    align-self: center;
+}
+
+.main_experience_content_heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem;
+}
+
+.main_experience_content ul li {
+    line-height: 2rem;
+}
+
+
+
+.main_projects {
+    margin: 5rem;
+}
+
+.main_projects_heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem;
+    text-align: center;
+}
+
+.project_card {
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.2) .1rem .1rem 2rem;
+    border-radius: 1rem;
+}
+
+.project_title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.project_card_content {
+    width: 50%;
+    padding: 2rem;
+    align-self: center;
+}
+
+.project_card_image {
+    height: 15rem;
+}
+
+.main_collaboration {
+    background-color: #141c3a;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    width: 80%;
+    color: white;
+    padding: 3rem 5rem;
+    font-family: 'Lato',sans-serif;
+    letter-spacing: 1px;
+    position: relative;
+}
+.main_collaboration_heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+.main_collaboration_link{
+    text-decoration: none;
+    color: white;
+    border: solid dodgerblue 2px;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    transition: all 0.5s;
+    font-family: 'Capriola', sans-serif;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.main_collaboration_link:hover{
+    background-color: dodgerblue;
+}
+
+
+footer{
+    margin-top: 5rem;
+    position: relative;
+    height: 30rem;
+    display: flex;
+    color: rgba(255, 255, 255,0.7);
+    background-image: linear-gradient(to right bottom, rgba(20, 97, 240, 0.85), rgba(0, 128, 255, 0.85), rgba(8, 97, 240, 0.85));
+}
+.footer_logo{
+    height: 2rem;
+}
+.footer_text{
+    font-size: 1.4rem;
+    margin: auto;
+    text-align: center;
+}
+.icons{
+    margin: 2rem;
+} 
+.icons_head{
+    font-size: 2rem;
+    text-align: center;
+}
+.icons a{
+    font-size: 3rem;
+    color: inherit;
+    margin: 1rem;
+    transition: all 0.5s;
+}
+.icons a:hover{
+    color: white;
+}
+.black:hover{
+    color: black;
+    transition: all 0.5s;
+}
+.insta:hover{
+    background-image:  radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    transition: all 0.5s;
+}
+.red:hover{
+    color: #d44638;
+    transition: all 0.5s;
+}
