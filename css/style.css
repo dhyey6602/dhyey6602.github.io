@@ -277,3 +277,47 @@ footer{
     color: #d44638;
     transition: all 0.5s;
 }
+
+@media(max-width:600px){
+    .banner_image{
+        height: 10rem;
+        width: 100%;
+    }
+    .main_intro{
+        padding: 1rem;
+    }
+    .main_skill{
+        display: block;
+        margin: 1rem;
+    }
+    .main_experience{
+        flex-wrap: wrap;
+    }
+    .main_experience_image{
+        display: none;
+    }
+    .main_projects{
+        margin: 1rem;
+    }
+    .project_card{
+        flex-wrap: wrap;
+    }
+    .project_card_image{
+        height: 10rem;
+    }
+    .project_card_content{
+        width: 100%;
+    }
+    .main_collaboration_link{
+        padding: 1rem 0.5rem;
+        border-radius: 1rem;
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%,-100%);
+    }
+    .main_collaboration{
+        padding: 1rem;
+        height: 15rem;
+    }
+}
