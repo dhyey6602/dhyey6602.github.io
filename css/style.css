@@ -9,7 +9,9 @@ font-family: 'Capriola', sans-serif; */
 }
 
 body {
-    font-family: 'Capriola', sans-serif;
+    font-family: 'Lato', sans-serif;
+    background-color: #222;
+    color: white;
 }
 
 .blue_text {
@@ -29,7 +31,7 @@ header {
     border: dodgerblue 2px solid;
     padding: 1rem 2rem;
     border-radius: 5rem;
-    color: black;
+    color: white;
 }
 
 .header_connect:hover {
@@ -45,9 +47,9 @@ header {
 
 .header_logo {
     position: absolute;
-    top: 2rem;
+    top: 1.5rem;
     left: 2rem;
-    height: 3rem;
+    height: 4rem;
 }
 
 
@@ -55,6 +57,7 @@ header {
     height: 50rem;
     position: relative;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 .main_banner_head {
@@ -65,8 +68,9 @@ header {
 }
 
 .main_banner_heading {
-    font-size: 3rem;
+    font-size: 5rem;
     margin: 1rem;
+    letter-spacing: 2px;
     font-weight: bold;
 }
 
@@ -76,7 +80,7 @@ header {
 
 
 .main_intro {
-    margin: 1rem;
+    margin: 5rem;
     color: white;
     padding: 5rem 20rem;
     border-radius: 0.5rem;
@@ -105,15 +109,16 @@ header {
     margin: 1rem;
     border: #DDD 2px solid;
     border-radius: 0.5rem;
-    padding: 2rem;
+    padding: 3rem;
     text-align: center;
-    color: #444;
+    color: white;
+    font-weight: 400;
 }
 
 .card img {
-    height: 5rem;
+    height: 6rem;
     margin: 1rem;
-    width: 25%;
+    width: 50%;
 }
 
 .card:hover {
@@ -127,7 +132,6 @@ header {
     font-weight: bold;
     font-size: 1.2rem;
     margin: 1rem;
-    color: black;
 }
 
 
@@ -171,12 +175,22 @@ header {
 }
 
 .project_card {
-    padding: 4rem 2rem;
+    padding: 5rem 2rem;
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
-    box-shadow: rgba(0, 0, 0, 0.2) .1rem .1rem 2rem;
+    margin-top: 2rem;
     border-radius: 1rem;
+}
+
+.btop{
+    border-top: 2px rgba(255, 255, 255, 0.2521) solid;
+    margin: 0rem 5rem;
+}
+
+.project_card:hover{
+    box-shadow: rgba(255, 255, 255, 0.25) .1rem .1rem 2rem;
+    transition: all 0.25s;
 }
 
 .project_title {
@@ -189,6 +203,8 @@ header {
     width: 50%;
     padding: 2rem;
     align-self: center;
+    text-align: justify;
+    letter-spacing: 1px;
 }
 
 .project_card_image {
@@ -196,7 +212,7 @@ header {
 }
 
 .main_collaboration {
-    background-color: #141c3a;
+    background-color: #1b317e;
     margin: 1rem auto;
     border-radius: 1rem;
     width: 80%;
@@ -230,12 +246,12 @@ header {
 
 
 footer{
-    margin-top: 5rem;
     position: relative;
-    height: 30rem;
+    height: 15rem;
+    margin-top: 5rem;
     display: flex;
     color: rgba(255, 255, 255,0.7);
-    background-image: linear-gradient(to right bottom, rgba(20, 97, 240, 0.85), rgba(0, 128, 255, 0.85), rgba(8, 97, 240, 0.85));
+    /* background-image: linear-gradient(to right bottom, rgba(20, 97, 240, 0.85), rgba(0, 128, 255, 0.85), rgba(8, 97, 240, 0.85)); */
 }
 .footer_logo{
     height: 2rem;
@@ -258,9 +274,17 @@ footer{
     margin: 1rem;
     transition: all 0.5s;
 }
-.icons a:hover{
-    color: white;
+
+.icon-img{
+    height: 3rem;
+    width: 3rem;
 }
+
+/* .icons a:hover{
+    color: white; 
+}
+*/
+
 .black:hover{
     color: black;
     transition: all 0.5s;
@@ -282,9 +306,12 @@ footer{
     .banner_image{
         height: 10rem;
         width: 100%;
+        margin: 0;
+        padding: 0;
     }
     .main_intro{
         padding: 1rem;
+        margin: 1rem;
     }
     .main_skill{
         display: block;
